@@ -1,0 +1,7 @@
+enable
+configure terminal
+router rip
+version 2
+auto-summary
+network //ip address of networks of all interfaces of router
+end

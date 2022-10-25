@@ -1,0 +1,20 @@
+configure 819 Router
+firstly enable the router and then go configuree terminal mode and then go to the access point
+command of acccess pint (service-module wlan ap 0 session
+after that create SSID
+dot11 ssid t1
+authentication ( two types
+1.authentication open
+2.authenticatio key-management wpa
+guest mode
+wpa-psk ascii cisco123456
+after configure dot11 radio 0 interface /gigabit ethernet 
+interface dot11 radio 0
+ecryption mode cipher tkip
+bridge-group 1
+ssid t1
+no shutdown(by defau;lt its off)
+interface gigabitethernet 0
+bridge- group 1
+exit
+now test the pc will connect or not.

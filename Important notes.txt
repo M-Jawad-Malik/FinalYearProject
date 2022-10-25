@@ -1,0 +1,2 @@
+to raise sunlight go environment option set time to 12 pm
+whenever a website donot open, check whether its ip is correct in dns server
